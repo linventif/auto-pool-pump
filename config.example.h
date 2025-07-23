@@ -1,7 +1,0 @@
-#ifndef CONFIG_WIFI_CREDENTIALS_H
-#define CONFIG_WIFI_CREDENTIALS_H
-
-const char* CONFIG_WIFI_SSID     = "YOUR_SSID";
-const char* CONFIG_WIFI_PASSWORD = "YOUR_PASSWORD";
-
-#endif
