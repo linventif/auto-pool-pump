@@ -10,11 +10,11 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"dev:api": "turbo dev --filter=@auto-pool-pump/api",
+		"dev:ws": "turbo dev --filter=@auto-pool-pump/websocket",
 		"dev:web": "turbo dev --filter=@auto-pool-pump/website",
 		"lint": "turbo lint",
 		"type-check": "turbo type-check",
-		"clean": "turbo clean && rm -rf node_modules apps/*/node_modules packages/*/node_modules",
-		"setup": "./setup-dev.sh"
+		"clean": "turbo clean && rm -rf node_modules apps/*/node_modules packages/*/node_modules"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
