@@ -9,6 +9,7 @@
 		"build": "turbo build",
 		"dev": "turbo dev",
 		"dev:api": "turbo dev --filter=@auto-pool-pump/api",
+		"dev:website": "turbo dev --filter=@auto-pool-pump/website",
 		"dev:ws": "turbo dev --filter=@auto-pool-pump/websocket",
 		"dev:web": "turbo dev --filter=@auto-pool-pump/website",
 		"lint": "turbo lint",
@@ -18,8 +19,8 @@
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
-		"turbo": "^2.0.0",
-		"typescript": "^5.0.0"
+		"turbo": "^2.5.5",
+		"typescript": "^5.8.3"
 	},
 	"dependencies": {
 		"dotenv": "^17.2.0"
